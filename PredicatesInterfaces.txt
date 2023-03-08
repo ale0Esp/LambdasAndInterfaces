@@ -1,0 +1,11 @@
+Predicate<T>
+	Boolean test(T t)
+
+BiPredicate<T,U>
+	Boolean test(T t, U u)
+
+DoublePredicate
+	Boolean test(Double value)
+
+LongPredicate
+	Boolean test(Long value)

@@ -1,0 +1,24 @@
+Function<T,R>
+	R apply(T t)
+
+BiFunction<T, U, R>
+	R apply(T t, U,u)
+
+DoubleFunction<R>
+	R apply(Double value)
+
+DoubleToIntFunction
+	int applyASInt(Double value)
+
+DoubleToLongFunction
+	long applyAsLong(Double value)
+
+IntFunction<R>
+	R apply(int value)
+
+IntToDoubleFunction
+	Double applyAsDouble(int value)
+
+IntToLongFunction
+	long applyAsLong(int value)
+
